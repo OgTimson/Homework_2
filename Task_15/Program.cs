@@ -15,7 +15,7 @@ int GetNumber(string message)
     {
         Console.WriteLine("Это выходной день");
     }
-    else if (number < 6)
+    else if (number >= 1 && number < 6)
     {
         Console.WriteLine("Это будний день");
     }
